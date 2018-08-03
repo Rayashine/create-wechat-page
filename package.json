@@ -1,29 +1,29 @@
 {
-    "name": "create-wechat-page",
-    "version": "1.0.0",
-    "author": "Rayashine",
-    "description": "build wechat-page-component kit",
-    "main": "./lib/index.js",
-    "preferGlobal": "true",
-    "bin": {
-        "mkpage": "./bin/mkpage.js"
-    },
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [
-        "node",
-        "npm",
-        "javascript",
-        "wechat",
-        "weixin"
-    ],
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Rayashine/create-wechat-page/issues"
-    },
-    "homepage": "https://github.com/Rayashine/create-wechat-page#readme",
-    "dependencies": {
-        "commander": "^2.9.0"
-    }
+  "name": "create-wechat-page",
+  "version": "1.0.0",
+  "description": "build wechat-page-component kit",
+  "main": "index.js",
+  "bin": {
+    "rayashine": "mkpage.js"
+  },
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rayashine/create-wechat-page.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "javascript",
+    "wechat",
+    "weixin"
+  ],
+  "author": "Sara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rayashine/create-wechat-page/issues"
+  },
+  "homepage": "https://github.com/Rayashine/create-wechat-page#readme"
 }
