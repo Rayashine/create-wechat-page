@@ -1,0 +1,376 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'create-wechat-page' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData create-wechat-page
+8 silly fetchNamedPackageData create-wechat-page
+9 silly mapToRegistry name create-wechat-page
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'create-wechat-page',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'create-wechat-page',
+12 silly mapToRegistry   name: 'create-wechat-page',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/create-wechat-page
+14 verbose request uri https://registry.npmjs.org/create-wechat-page
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 11:00:58
+17 verbose request using bearer token for auth
+18 verbose request id e17ff918def5a390
+19 http request GET https://registry.npmjs.org/create-wechat-page
+20 http 200 https://registry.npmjs.org/create-wechat-page
+21 verbose headers { date: 'Fri, 03 Aug 2018 03:00:59 GMT',
+21 verbose headers   'content-type': 'application/json; charset=UTF-8',
+21 verbose headers   'transfer-encoding': 'chunked',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie': [ '__cfduid=d41e3c718197a6ab771a4ab9d396417ce1533265259; expires=Sat, 03-Aug-19 03:00:59 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+21 verbose headers   'cache-control': 'max-age=300',
+21 verbose headers   'cf-cache-status': 'MISS',
+21 verbose headers   'cf-ray': '44458981eda42252-LAX',
+21 verbose headers   etag: 'W/"aaf12b2547f236ce06bd22a0ac1a0f1e"',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   'last-modified': 'Fri, 03 Aug 2018 02:59:57 GMT',
+21 verbose headers   vary: 'accept-encoding, accept',
+21 verbose headers   server: 'cloudflare',
+21 verbose headers   'content-encoding': 'gzip' }
+22 silly get cb [ 200,
+22 silly get   { date: 'Fri, 03 Aug 2018 03:00:59 GMT',
+22 silly get     'content-type': 'application/json; charset=UTF-8',
+22 silly get     'transfer-encoding': 'chunked',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie': [ '__cfduid=d41e3c718197a6ab771a4ab9d396417ce1533265259; expires=Sat, 03-Aug-19 03:00:59 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+22 silly get     'cache-control': 'max-age=300',
+22 silly get     'cf-cache-status': 'MISS',
+22 silly get     'cf-ray': '44458981eda42252-LAX',
+22 silly get     etag: 'W/"aaf12b2547f236ce06bd22a0ac1a0f1e"',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     'last-modified': 'Fri, 03 Aug 2018 02:59:57 GMT',
+22 silly get     vary: 'accept-encoding, accept',
+22 silly get     server: 'cloudflare',
+22 silly get     'content-encoding': 'gzip' } ]
+23 verbose get saving create-wechat-page to /Users/qianxuejia/.npm/registry.npmjs.org/create-wechat-page/.cache.json
+24 verbose correctMkdir /Users/qianxuejia/.npm correctMkdir not in flight; initializing
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule create-wechat-page@1.0.0 checking installable status
+38 silly cache add args [ 'create-wechat-page', null ]
+39 verbose cache add spec create-wechat-page
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'create-wechat-page',
+40 silly cache add   scope: null,
+40 silly cache add   escapedName: 'create-wechat-page',
+40 silly cache add   name: 'create-wechat-page',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed create-wechat-page@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for create-wechat-page
+43 info addNameTag [ 'create-wechat-page', 'latest' ]
+44 silly mapToRegistry name create-wechat-page
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry data Result {
+47 silly mapToRegistry   raw: 'create-wechat-page',
+47 silly mapToRegistry   scope: null,
+47 silly mapToRegistry   escapedName: 'create-wechat-page',
+47 silly mapToRegistry   name: 'create-wechat-page',
+47 silly mapToRegistry   rawSpec: '',
+47 silly mapToRegistry   spec: 'latest',
+47 silly mapToRegistry   type: 'tag' }
+48 silly mapToRegistry uri https://registry.npmjs.org/create-wechat-page
+49 verbose addNameTag registry:https://registry.npmjs.org/create-wechat-page not in flight; fetching
+50 verbose get https://registry.npmjs.org/create-wechat-page not expired, no request
+51 silly addNameTag next cb for create-wechat-page with tag latest
+52 silly addNamed create-wechat-page@1.0.0
+53 verbose addNamed "1.0.0" is a plain semver version for create-wechat-page
+54 silly cache afterAdd create-wechat-page@1.0.0
+55 verbose afterAdd /Users/qianxuejia/.npm/create-wechat-page/1.0.0/package/package.json not in flight; writing
+56 verbose correctMkdir /Users/qianxuejia/.npm correctMkdir not in flight; initializing
+57 verbose afterAdd /Users/qianxuejia/.npm/create-wechat-page/1.0.0/package/package.json written
+58 silly fetchNamedPackageData commander
+59 silly mapToRegistry name commander
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npmjs.org/
+62 silly mapToRegistry data Result {
+62 silly mapToRegistry   raw: 'commander',
+62 silly mapToRegistry   scope: null,
+62 silly mapToRegistry   escapedName: 'commander',
+62 silly mapToRegistry   name: 'commander',
+62 silly mapToRegistry   rawSpec: '',
+62 silly mapToRegistry   spec: 'latest',
+62 silly mapToRegistry   type: 'tag' }
+63 silly mapToRegistry uri https://registry.npmjs.org/commander
+64 verbose request uri https://registry.npmjs.org/commander
+65 verbose request no auth needed
+66 info attempt registry request try #1 at 11:01:00
+67 verbose request using bearer token for auth
+68 verbose etag W/"24bf6fff14e0ff942b1897e5750eaf4b"
+69 verbose lastModified Fri, 20 Jul 2018 21:39:12 GMT
+70 http request GET https://registry.npmjs.org/commander
+71 http 200 https://registry.npmjs.org/commander
+72 verbose headers { date: 'Fri, 03 Aug 2018 03:01:00 GMT',
+72 verbose headers   'content-type': 'application/json; charset=UTF-8',
+72 verbose headers   'transfer-encoding': 'chunked',
+72 verbose headers   connection: 'keep-alive',
+72 verbose headers   'set-cookie': [ '__cfduid=d3a0d3fe6af8af1a393dfb816bf9ac1ba1533265260; expires=Sat, 03-Aug-19 03:01:00 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+72 verbose headers   'cache-control': 'max-age=300',
+72 verbose headers   'cf-cache-status': 'HIT',
+72 verbose headers   'cf-ray': '444589849f052252-LAX',
+72 verbose headers   etag: 'W/"1d5ac850ec9b9df4a41bcbb313e7989e"',
+72 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+72 verbose headers   'last-modified': 'Thu, 02 Aug 2018 09:51:23 GMT',
+72 verbose headers   vary: 'accept-encoding, accept',
+72 verbose headers   server: 'cloudflare',
+72 verbose headers   'content-encoding': 'gzip' }
+73 silly get cb [ 200,
+73 silly get   { date: 'Fri, 03 Aug 2018 03:01:00 GMT',
+73 silly get     'content-type': 'application/json; charset=UTF-8',
+73 silly get     'transfer-encoding': 'chunked',
+73 silly get     connection: 'keep-alive',
+73 silly get     'set-cookie': [ '__cfduid=d3a0d3fe6af8af1a393dfb816bf9ac1ba1533265260; expires=Sat, 03-Aug-19 03:01:00 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+73 silly get     'cache-control': 'max-age=300',
+73 silly get     'cf-cache-status': 'HIT',
+73 silly get     'cf-ray': '444589849f052252-LAX',
+73 silly get     etag: 'W/"1d5ac850ec9b9df4a41bcbb313e7989e"',
+73 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+73 silly get     'last-modified': 'Thu, 02 Aug 2018 09:51:23 GMT',
+73 silly get     vary: 'accept-encoding, accept',
+73 silly get     server: 'cloudflare',
+73 silly get     'content-encoding': 'gzip' } ]
+74 verbose get saving commander to /Users/qianxuejia/.npm/registry.npmjs.org/commander/.cache.json
+75 verbose correctMkdir /Users/qianxuejia/.npm correctMkdir not in flight; initializing
+76 silly resolveWithNewModule commander@2.16.0 checking installable status
+77 silly cache add args [ 'commander@^2.9.0', null ]
+78 verbose cache add spec commander@^2.9.0
+79 silly cache add parsed spec Result {
+79 silly cache add   raw: 'commander@^2.9.0',
+79 silly cache add   scope: null,
+79 silly cache add   escapedName: 'commander',
+79 silly cache add   name: 'commander',
+79 silly cache add   rawSpec: '^2.9.0',
+79 silly cache add   spec: '>=2.9.0 <3.0.0',
+79 silly cache add   type: 'range' }
+80 silly addNamed commander@>=2.9.0 <3.0.0
+81 verbose addNamed ">=2.9.0 <3.0.0" is a valid semver range for commander
+82 silly addNameRange { name: 'commander', range: '>=2.9.0 <3.0.0', hasData: false }
+83 silly mapToRegistry name commander
+84 silly mapToRegistry using default registry
+85 silly mapToRegistry registry https://registry.npmjs.org/
+86 silly mapToRegistry data Result {
+86 silly mapToRegistry   raw: 'commander',
+86 silly mapToRegistry   scope: null,
+86 silly mapToRegistry   escapedName: 'commander',
+86 silly mapToRegistry   name: 'commander',
+86 silly mapToRegistry   rawSpec: '',
+86 silly mapToRegistry   spec: 'latest',
+86 silly mapToRegistry   type: 'tag' }
+87 silly mapToRegistry uri https://registry.npmjs.org/commander
+88 verbose addNameRange registry:https://registry.npmjs.org/commander not in flight; fetching
+89 verbose get https://registry.npmjs.org/commander not expired, no request
+90 silly addNameRange number 2 { name: 'commander', range: '>=2.9.0 <3.0.0', hasData: true }
+91 silly addNameRange versions [ 'commander',
+91 silly addNameRange   [ '0.0.1',
+91 silly addNameRange     '0.0.3',
+91 silly addNameRange     '0.0.4',
+91 silly addNameRange     '0.0.5',
+91 silly addNameRange     '0.1.0',
+91 silly addNameRange     '0.2.0',
+91 silly addNameRange     '0.2.1',
+91 silly addNameRange     '0.3.0',
+91 silly addNameRange     '0.3.1',
+91 silly addNameRange     '0.3.2',
+91 silly addNameRange     '0.3.3',
+91 silly addNameRange     '0.4.0',
+91 silly addNameRange     '0.4.1',
+91 silly addNameRange     '0.4.2',
+91 silly addNameRange     '0.4.3',
+91 silly addNameRange     '0.5.0',
+91 silly addNameRange     '0.5.1',
+91 silly addNameRange     '0.6.0',
+91 silly addNameRange     '0.6.1',
+91 silly addNameRange     '0.5.2',
+91 silly addNameRange     '1.0.0',
+91 silly addNameRange     '1.0.1',
+91 silly addNameRange     '1.0.2',
+91 silly addNameRange     '1.0.3',
+91 silly addNameRange     '1.0.4',
+91 silly addNameRange     '1.0.5',
+91 silly addNameRange     '1.1.0',
+91 silly addNameRange     '1.1.1',
+91 silly addNameRange     '1.2.0',
+91 silly addNameRange     '1.3.0',
+91 silly addNameRange     '1.3.1',
+91 silly addNameRange     '1.3.2',
+91 silly addNameRange     '2.0.0',
+91 silly addNameRange     '2.1.0',
+91 silly addNameRange     '2.2.0',
+91 silly addNameRange     '2.3.0',
+91 silly addNameRange     '2.4.0',
+91 silly addNameRange     '2.5.0',
+91 silly addNameRange     '2.5.1',
+91 silly addNameRange     '2.6.0',
+91 silly addNameRange     '2.7.0',
+91 silly addNameRange     '2.7.1',
+91 silly addNameRange     '2.8.0',
+91 silly addNameRange     '2.8.1',
+91 silly addNameRange     '2.9.0',
+91 silly addNameRange     '2.10.0',
+91 silly addNameRange     '2.11.0',
+91 silly addNameRange     '2.12.0',
+91 silly addNameRange     '2.12.1',
+91 silly addNameRange     '2.12.2',
+91 silly addNameRange     '2.13.0',
+91 silly addNameRange     '2.14.0',
+91 silly addNameRange     '2.14.1',
+91 silly addNameRange     '2.15.0',
+91 silly addNameRange     '2.15.1',
+91 silly addNameRange     '2.16.0' ] ]
+92 silly addNamed commander@2.16.0
+93 verbose addNamed "2.16.0" is a plain semver version for commander
+94 silly cache afterAdd commander@2.16.0
+95 verbose afterAdd /Users/qianxuejia/.npm/commander/2.16.0/package/package.json not in flight; writing
+96 verbose correctMkdir /Users/qianxuejia/.npm correctMkdir not in flight; initializing
+97 verbose afterAdd /Users/qianxuejia/.npm/commander/2.16.0/package/package.json written
+98 silly loadAllDepsIntoIdealTree Finishing
+99 silly loadIdealTree Finishing
+100 silly currentTree lib
+101 silly idealTree lib
+101 silly idealTree └─┬ create-wechat-page@1.0.0
+101 silly idealTree   └── commander@2.16.0
+102 silly generateActionsToTake Starting
+103 silly install generateActionsToTake
+104 silly generateActionsToTake Finishing
+105 silly diffTrees action count 2
+106 silly diffTrees add commander@2.16.0
+107 silly diffTrees add create-wechat-page@1.0.0
+108 silly decomposeActions action count 16
+109 silly decomposeActions fetch commander@2.16.0
+110 silly decomposeActions extract commander@2.16.0
+111 silly decomposeActions test commander@2.16.0
+112 silly decomposeActions preinstall commander@2.16.0
+113 silly decomposeActions build commander@2.16.0
+114 silly decomposeActions install commander@2.16.0
+115 silly decomposeActions postinstall commander@2.16.0
+116 silly decomposeActions finalize commander@2.16.0
+117 silly decomposeActions fetch create-wechat-page@1.0.0
+118 silly decomposeActions extract create-wechat-page@1.0.0
+119 silly decomposeActions test create-wechat-page@1.0.0
+120 silly decomposeActions preinstall create-wechat-page@1.0.0
+121 silly decomposeActions build create-wechat-page@1.0.0
+122 silly decomposeActions install create-wechat-page@1.0.0
+123 silly decomposeActions postinstall create-wechat-page@1.0.0
+124 silly decomposeActions finalize create-wechat-page@1.0.0
+125 silly runTopLevelLifecycles Starting
+126 silly executeActions Starting
+127 silly install executeActions
+128 silly doSerial global-install 0
+129 silly doParallel fetch 2
+130 verbose correctMkdir /Users/qianxuejia/.npm/_locks correctMkdir not in flight; initializing
+131 verbose lock using /Users/qianxuejia/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+132 silly doParallel extract 2
+133 silly extract commander@2.16.0
+134 silly extract create-wechat-page@1.0.0
+135 verbose unbuild lib/node_modules/.staging/commander-74ed6264
+136 verbose unbuild lib/node_modules/.staging/create-wechat-page-c7417a74
+137 silly gentlyRm /usr/local/lib/node_modules/.staging/commander-74ed6264 is being purged from base /usr/local
+138 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/commander-74ed6264
+139 verbose tar unpack /Users/qianxuejia/.npm/commander/2.16.0/package.tgz
+140 verbose tar unpacking to /usr/local/lib/node_modules/.staging/commander-74ed6264
+141 silly gentlyRm /usr/local/lib/node_modules/.staging/commander-74ed6264 is being purged
+142 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/commander-74ed6264
+143 silly gentlyRm /usr/local/lib/node_modules/.staging/create-wechat-page-c7417a74 is being purged from base /usr/local
+144 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/create-wechat-page-c7417a74
+145 silly gunzTarPerm modes [ '755', '644' ]
+146 verbose tar unpack /Users/qianxuejia/.npm/create-wechat-page/1.0.0/package.tgz
+147 verbose tar unpacking to /usr/local/lib/node_modules/.staging/create-wechat-page-c7417a74
+148 silly gentlyRm /usr/local/lib/node_modules/.staging/create-wechat-page-c7417a74 is being purged
+149 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/create-wechat-page-c7417a74
+150 silly gunzTarPerm modes [ '755', '644' ]
+151 silly gunzTarPerm extractEntry package.json
+152 silly gunzTarPerm extractEntry package.json
+153 silly gunzTarPerm extractEntry CHANGELOG.md
+154 silly gunzTarPerm extractEntry index.js
+155 silly gunzTarPerm extractEntry .npmignore
+156 silly gunzTarPerm extractEntry README.md
+157 silly gunzTarPerm extractEntry bin/mkpage.js
+158 silly gunzTarPerm extractEntry lib/createWechatPage.js
+159 silly gunzTarPerm extractEntry LICENSE
+160 silly gunzTarPerm extractEntry lib/index.js
+161 silly gunzTarPerm extractEntry Readme.md
+162 silly gunzTarPerm extractEntry typings/index.d.ts
+163 silly gunzTarPerm extractEntry lib/whiteFile.js
+164 silly gentlyRm /usr/local/lib/node_modules/.staging/commander-74ed6264/node_modules is being purged
+165 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/commander-74ed6264/node_modules
+166 silly gentlyRm /usr/local/lib/node_modules/.staging/create-wechat-page-c7417a74/node_modules is being purged
+167 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/.staging/create-wechat-page-c7417a74/node_modules
+168 silly doParallel preinstall 2
+169 silly preinstall commander@2.16.0 /usr/local/lib/node_modules/.staging/commander-74ed6264
+170 info lifecycle commander@2.16.0~preinstall: commander@2.16.0
+171 silly preinstall create-wechat-page@1.0.0 /usr/local/lib/node_modules/.staging/create-wechat-page-c7417a74
+172 info lifecycle create-wechat-page@1.0.0~preinstall: create-wechat-page@1.0.0
+173 silly lifecycle commander@2.16.0~preinstall: no script for preinstall, continuing
+174 silly lifecycle create-wechat-page@1.0.0~preinstall: no script for preinstall, continuing
+175 silly doReverseSerial remove 0
+176 silly doSerial move 0
+177 silly doSerial finalize 2
+178 silly finalize /usr/local/lib/node_modules/create-wechat-page/node_modules/commander
+179 silly finalize /usr/local/lib/node_modules/create-wechat-page
+180 silly doSerial build 2
+181 silly build commander@2.16.0
+182 info linkStuff commander@2.16.0
+183 silly linkStuff commander@2.16.0 has /usr/local/lib/node_modules/create-wechat-page/node_modules as its parent node_modules
+184 silly linkStuff commander@2.16.0 is part of a global install
+185 silly linkStuff commander@2.16.0 is installed into a global node_modules
+186 verbose linkBins commander@2.16.0
+187 verbose linkMans commander@2.16.0
+188 silly build create-wechat-page@1.0.0
+189 info linkStuff create-wechat-page@1.0.0
+190 silly linkStuff create-wechat-page@1.0.0 has /usr/local/lib/node_modules as its parent node_modules
+191 silly linkStuff create-wechat-page@1.0.0 is part of a global install
+192 silly linkStuff create-wechat-page@1.0.0 is installed into a global node_modules
+193 silly linkStuff create-wechat-page@1.0.0 is installed into the top-level global node_modules
+194 verbose linkBins create-wechat-page@1.0.0
+195 verbose link bins [ { 'create-wechat-page': 'mkpage.js' }, '/usr/local/bin', true ]
+196 verbose linkMans create-wechat-page@1.0.0
+197 verbose unlock done using /Users/qianxuejia/.npm/_locks/staging-3a08f0df5026584d.lock for /usr/local/lib/node_modules/.staging
+198 silly rollbackFailedOptional Starting
+199 silly rollbackFailedOptional Finishing
+200 silly runTopLevelLifecycles Finishing
+201 silly install printInstalled
+202 verbose stack Error: ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/create-wechat-page/mkpage.js'
+202 verbose stack     at Error (native)
+203 verbose cwd /Users/qianxuejia/study_code/create-wechat-page
+204 error Darwin 17.4.0
+205 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "create-wechat-page"
+206 error node v6.9.4
+207 error npm  v3.10.10
+208 error path /usr/local/lib/node_modules/create-wechat-page/mkpage.js
+209 error code ENOENT
+210 error errno -2
+211 error syscall chmod
+212 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/create-wechat-page/mkpage.js'
+213 error enoent ENOENT: no such file or directory, chmod '/usr/local/lib/node_modules/create-wechat-page/mkpage.js'
+213 error enoent This is most likely not a problem with npm itself
+213 error enoent and is related to npm not being able to find a file.
+214 verbose exit [ -2, true ]

@@ -4,7 +4,7 @@
   "description": "build wechat-page-component kit",
   "main": "index.js",
   "bin": {
-    "create-wechat-page": "mkpage.js"
+    "create-wechat-page": "bin/mkpage.js"
   },
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1"
