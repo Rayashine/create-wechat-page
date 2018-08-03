@@ -1,6 +1,6 @@
 {
   "name": "create-wechat-page",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "build wechat-page-component kit",
   "preferGlobal": "true",
   "main": "./lib/index.js",
