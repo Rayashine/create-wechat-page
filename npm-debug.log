@@ -1,0 +1,105 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.4
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/qianxuejia/study_code/create-wechat-page',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/qianxuejia/.npm/create-wechat-page/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/qianxuejia/.npm correctMkdir not in flight; initializing
+10 info lifecycle create-wechat-page@1.0.0~prepublish: create-wechat-page@1.0.0
+11 silly lifecycle create-wechat-page@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/qianxuejia/.npm/create-wechat-page/1.0.0/package.tgz',
+12 verbose tar pack   '/Users/qianxuejia/study_code/create-wechat-page' ]
+13 verbose tarball /Users/qianxuejia/.npm/create-wechat-page/1.0.0/package.tgz
+14 verbose folder /Users/qianxuejia/study_code/create-wechat-page
+15 verbose addLocalTarball adding from inside cache /Users/qianxuejia/.npm/create-wechat-page/1.0.0/package.tgz
+16 verbose correctMkdir /Users/qianxuejia/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd create-wechat-page@1.0.0
+18 verbose afterAdd /Users/qianxuejia/.npm/create-wechat-page/1.0.0/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/qianxuejia/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/qianxuejia/.npm/create-wechat-page/1.0.0/package/package.json written
+21 silly publish { name: 'create-wechat-page',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'build wechat-page-component kit',
+21 silly publish   main: './lib/index.js',
+21 silly publish   bin: { 'create-wechat-page': './bin/mkpage.js' },
+21 silly publish   scripts: { test: 'echo \\"Error: no test specified\\" && exit 1' },
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/Rayashine/create-wechat-page.git' },
+21 silly publish   keywords: [ 'node', 'npm', 'javascript', 'wechat', 'weixin', 'create' ],
+21 silly publish   author: { name: 'rayashine' },
+21 silly publish   license: 'ISC',
+21 silly publish   bugs: { url: 'https://github.com/Rayashine/create-wechat-page/issues' },
+21 silly publish   homepage: 'https://github.com/Rayashine/create-wechat-page#readme',
+21 silly publish   dependencies: { commander: '^2.9.0' },
+21 silly publish   readme: '# create-wechat-page\n\nthe cli to create weixin mini-program page component\n\n## v1.0.0\n\n## support\n\n1. the cli to create weixin mini-program page component\n2. support create multiple components\n3. support `Scss`\n### Usage\n\n```\nnpm i -g create-wechat-page\n\nmkpage App\n//you will create weixin mini-program page component named App\n\n## component details\n\n- [name].html\n- [name].js\n- [name].scss\n- [name].json\n\n\n',
+21 silly publish   readmeFilename: 'README.md',
+21 silly publish   gitHead: '3c5c8ff9776eaf0906a1f1e7651478ffda477aca',
+21 silly publish   _id: 'create-wechat-page@1.0.0',
+21 silly publish   _shasum: '44cecde35e762d14c94843b59d57880fa1cf80d3',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name create-wechat-page
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'create-wechat-page',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   escapedName: 'create-wechat-page',
+26 silly mapToRegistry   name: 'create-wechat-page',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/create-wechat-page
+28 verbose publish registryBase https://registry.npmjs.org/
+29 silly publish uploading /Users/qianxuejia/.npm/create-wechat-page/1.0.0/package.tgz
+30 verbose request uri https://registry.npmjs.org/create-wechat-page
+31 verbose request sending authorization for write operation
+32 info attempt registry request try #1 at 11:08:33
+33 verbose request using bearer token for auth
+34 verbose request id 6cae663ac4bdd835
+35 http request PUT https://registry.npmjs.org/create-wechat-page
+36 http 403 https://registry.npmjs.org/create-wechat-page
+37 verbose headers { date: 'Fri, 03 Aug 2018 03:08:34 GMT',
+37 verbose headers   'content-type': 'application/json',
+37 verbose headers   'transfer-encoding': 'chunked',
+37 verbose headers   connection: 'keep-alive',
+37 verbose headers   'set-cookie': [ '__cfduid=d47c1c09530a5e4c1fd711547e64069831533265714; expires=Sat, 03-Aug-19 03:08:34 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+37 verbose headers   'cf-ray': '44459499b80e78f8-LAX',
+37 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+37 verbose headers   server: 'cloudflare',
+37 verbose headers   'content-encoding': 'gzip' }
+38 verbose request invalidating /Users/qianxuejia/.npm/registry.npmjs.org/create-wechat-page on PUT
+39 error publish Failed PUT 403
+40 verbose stack Error: You cannot publish over the previously published versions: 1.0.0. : create-wechat-page
+40 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:302:12)
+40 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:290:14)
+40 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:216:7
+40 verbose stack     at Gunzip.onEnd (zlib.js:227:5)
+40 verbose stack     at emitNone (events.js:91:20)
+40 verbose stack     at Gunzip.emit (events.js:185:7)
+40 verbose stack     at endReadableNT (_stream_readable.js:974:12)
+40 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:74:11)
+40 verbose stack     at process._tickCallback (internal/process/next_tick.js:98:9)
+41 verbose statusCode 403
+42 verbose pkgid create-wechat-page
+43 verbose cwd /Users/qianxuejia/study_code/create-wechat-page
+44 error Darwin 17.4.0
+45 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+46 error node v6.9.4
+47 error npm  v3.10.10
+48 error code E403
+49 error You cannot publish over the previously published versions: 1.0.0. : create-wechat-page
+50 error If you need help, you may report this error at:
+50 error     <https://github.com/npm/npm/issues>
+51 verbose exit [ 1, true ]
