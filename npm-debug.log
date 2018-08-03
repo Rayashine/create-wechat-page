@@ -1,7 +1,7 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/local/bin/node',
 1 verbose cli   '/usr/local/bin/npm',
-1 verbose cli   'i',
+1 verbose cli   'install',
 1 verbose cli   '-g',
 1 verbose cli   'create-wechat-page' ]
 2 info using npm@3.10.10
@@ -25,30 +25,30 @@
 13 silly mapToRegistry uri https://registry.npmjs.org/create-wechat-page
 14 verbose request uri https://registry.npmjs.org/create-wechat-page
 15 verbose request no auth needed
-16 info attempt registry request try #1 at 10:22:30
-17 verbose request id a08b2cc399a81416
+16 info attempt registry request try #1 at 10:24:58
+17 verbose request id 540ec1f44ea0d8fb
 18 http request GET https://registry.npmjs.org/create-wechat-page
 19 http 404 https://registry.npmjs.org/create-wechat-page
-20 verbose headers { date: 'Fri, 03 Aug 2018 02:22:31 GMT',
+20 verbose headers { date: 'Fri, 03 Aug 2018 02:24:59 GMT',
 20 verbose headers   'content-type': 'application/json',
 20 verbose headers   'content-length': '21',
 20 verbose headers   connection: 'keep-alive',
-20 verbose headers   'set-cookie': [ '__cfduid=db694636148d6bc4002330168601585cb1533262951; expires=Sat, 03-Aug-19 02:22:31 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+20 verbose headers   'set-cookie': [ '__cfduid=d9f26b8687d923013122ddf2dde0a5e5c1533263099; expires=Sat, 03-Aug-19 02:24:59 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 20 verbose headers   'cache-control': 'max-age=300',
 20 verbose headers   'cf-cache-status': 'MISS',
-20 verbose headers   'cf-ray': '444551243d80987d-LAX',
+20 verbose headers   'cf-ray': '444554c1197476c4-LAX',
 20 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 20 verbose headers   vary: 'accept-encoding, accept',
 20 verbose headers   server: 'cloudflare' }
 21 silly get cb [ 404,
-21 silly get   { date: 'Fri, 03 Aug 2018 02:22:31 GMT',
+21 silly get   { date: 'Fri, 03 Aug 2018 02:24:59 GMT',
 21 silly get     'content-type': 'application/json',
 21 silly get     'content-length': '21',
 21 silly get     connection: 'keep-alive',
-21 silly get     'set-cookie': [ '__cfduid=db694636148d6bc4002330168601585cb1533262951; expires=Sat, 03-Aug-19 02:22:31 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+21 silly get     'set-cookie': [ '__cfduid=d9f26b8687d923013122ddf2dde0a5e5c1533263099; expires=Sat, 03-Aug-19 02:24:59 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
 21 silly get     'cache-control': 'max-age=300',
 21 silly get     'cf-cache-status': 'MISS',
-21 silly get     'cf-ray': '444551243d80987d-LAX',
+21 silly get     'cf-ray': '444554c1197476c4-LAX',
 21 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
 21 silly get     vary: 'accept-encoding, accept',
 21 silly get     server: 'cloudflare' } ]
@@ -93,7 +93,7 @@
 29 verbose pkgid create-wechat-page
 30 verbose cwd /Users/qianxuejia/study_code/create-wechat-page
 31 error Darwin 17.4.0
-32 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "i" "-g" "create-wechat-page"
+32 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "create-wechat-page"
 33 error node v6.9.4
 34 error npm  v3.10.10
 35 error code E404
