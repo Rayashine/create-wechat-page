@@ -1,10 +1,10 @@
 {
   "name": "create-wechat-page",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "build wechat-page-component kit",
   "main": "./lib/index.js",
   "bin": {
-    "create-wechat-page": "./bin/mkpage.js"
+    "mkpage": "./bin/mkpage.js"
   },
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1"
