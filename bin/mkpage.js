@@ -11,13 +11,10 @@ function log (name) {
 (function () {
   let name
 
-  program
-    .version('1.2.0')
-    .parse(process.argv)
+  program.version('1.2.0').parse(process.argv)
 
-  name = process
-      .argv[2]
-      .split(',')
+  name = process.argv[1].split(',')
+
     log(name)
 
   console.log(name)

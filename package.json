@@ -2,6 +2,7 @@
   "name": "create-wechat-page",
   "version": "1.0.2",
   "description": "build wechat-page-component kit",
+  "preferGlobal": "true",
   "main": "./lib/index.js",
   "bin": {
     "mkpage": "./bin/mkpage.js"
