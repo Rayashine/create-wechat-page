@@ -4,7 +4,7 @@
   "description": "build wechat-page-component kit",
   "main": "index.js",
   "bin": {
-    "rayashine": "mkpage.js"
+    "create-wechat-page": "mkpage.js"
   },
   "scripts": {
     "test": "echo \\\"Error: no test specified\\\" && exit 1"
@@ -18,7 +18,8 @@
     "npm",
     "javascript",
     "wechat",
-    "weixin"
+    "weixin",
+    "create"
   ],
   "author": "Sara",
   "license": "ISC",
