@@ -19,6 +19,10 @@
     ],
     "author": "Sara",
     "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Rayashine/create-wechat-page/issues"
+    },
+    "homepage": "https://github.com/Rayashine/create-wechat-page#readme",
     "dependencies": {
         "commander": "^2.9.0"
     }
